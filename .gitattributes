@@ -1,10 +1,9 @@
 
-*.shader linguist-vendored=true
-*.hlsl linguist-vendored=true
-*.cginc linguist-vendored=true
-*.glsl linguist-vendored=true
-*.hlslinc linguist-vendored=true
+*.shader linguist-vendored=false
+*.hlsl linguist-vendored=false
+*.cginc linguist-vendored=false
+*.glsl linguist-vendored=false
+*.hlslinc linguist-vendored=false
 
 
 Packages/** linguist-vendored=true
-Packages/** linguist-generated=true

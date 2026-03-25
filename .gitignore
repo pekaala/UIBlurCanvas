@@ -1,16 +1,31 @@
-# Unity auto-generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
+[Bb]uilds/
 [Ll]ogs/
-UserSettings/
+[Uu]ser[Ss]ettings/
 
-# Visual Studio / MonoDevelop files
+[Mm]emory[Cc]aptures/
+
+!/[Aa]ssets/**/*.meta
+
+
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+.vs/
+
+.gradle/
+
+ExportedObj/
+.consulo/
 *.csproj
 *.unityproj
 *.sln
+*.suo
+*.tmp
 *.user
+*.userprefs
 *.pidb
 *.booproj
 *.svd
@@ -19,6 +34,28 @@ UserSettings/
 *.opendb
 *.VC.db
 
-# OS generated files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+sysinfo.txt
+
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+crashlytics-build.properties
+
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/
+
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db

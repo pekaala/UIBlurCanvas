@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScreenBlurRendererFeature
   m_Active: 1
   Params:
-    BlurValue: 0.003
-    FadeColor: {r: 1, g: 1, b: 1, a: 1}
+    BlurNoise: 0.003
     RenderPassEvent: 500
     RenderPassEventOffset: 0
   _shader: {fileID: 4800000, guid: 37e9c14391e18c94cac48b343b1417d4, type: 3}

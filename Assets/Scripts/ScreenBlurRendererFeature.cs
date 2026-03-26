@@ -22,8 +22,8 @@ public class ScreenBlurRendererFeature : ScriptableRendererFeature
     public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
     {
         if (_material == null) return;
-   if (renderingData.cameraData.cameraType == CameraType.Game ||
-    renderingData.cameraData.cameraType == CameraType.SceneView)
+        if (renderingData.cameraData.cameraType == CameraType.Game ||
+         renderingData.cameraData.cameraType == CameraType.SceneView)
         {
             _blurRenderPass.SetParams(Params);
             renderer.EnqueuePass(_blurRenderPass);
@@ -42,5 +42,5 @@ public class ScreenBlurRendererFeature : ScriptableRendererFeature
 #endif
     }
 
-    
+
 }

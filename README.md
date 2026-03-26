@@ -8,9 +8,11 @@ Note Unity6 version 6000.3.11f1 used
 
 ## Before / After Comparison
 
-| Normal                                | Blur                               |
-| ------------------------------------- | ---------------------------------- |
-| ![Before](Contents/normal_canvas.png) | ![After](Contents/blur_canvas.png) |
+### Before
+![Before Image](Contents/normal_canvas.png)
+
+### After
+![After Image](Contents/blur_canvas.png)
 
 ## Resizable- Image custom width & height
 

@@ -8,7 +8,7 @@ Note Unity6 version 6000.3.11f1 used
 
 ## Before / After Comparison
 
-| Before Normal                         | After Blur                         |
+| Normal                                | Blur                               |
 | ------------------------------------- | ---------------------------------- |
 | ![Before](Contents/normal_canvas.png) | ![After](Contents/blur_canvas.png) |
 
